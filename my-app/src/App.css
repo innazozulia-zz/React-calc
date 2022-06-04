@@ -1,0 +1,34 @@
+
+.operations{
+  margin-top: 40px;
+}
+.value__one,
+.value__two{
+  display: flex;
+  max-width: 200px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  align-items: center;
+}
+input{
+      width: 60px;
+    height: 20px;
+}
+.result{
+  display: flex;
+  max-width: 200px;
+  align-items: center;
+  justify-content: space-around;
+}
+.operator{
+      display: flex;
+    margin: 32px 0 32px 32px;
+    width: 100px;
+}
+.delete__input{
+  opacity: 0.3;
+}
+.delete__input:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
