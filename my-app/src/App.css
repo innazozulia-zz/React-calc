@@ -1,34 +1,55 @@
-
-.operations{
-  margin-top: 40px;
+.App {
+  display: flex;
+  margin: 80px auto;
+  border: 2px solid #D8E1FF;
+  width: 600px;
+  height: 280px;
+  justify-content: space-around;
+  box-shadow: 10px 5px 5px #D8E1FF;
 }
-.value__one,
-.value__two{
+
+.container {
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+h1 {
+  color: #4B4E6D;
+  margin: 10px 30px;
+}
+
+h3 {
+  margin-top: 100px;
+  padding-right: 30px;
+  color: #4B4E6D;
+}
+
+.delete__input {
+  opacity: 0.3;
+}
+
+.delete__input:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.operations {
+  margin-top: 40px;
+  width: 250px;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.value__two,
+.value__one {
   display: flex;
   max-width: 200px;
   justify-content: space-around;
   margin-bottom: 20px;
   align-items: center;
-}
-input{
-      width: 60px;
-    height: 20px;
-}
-.result{
-  display: flex;
-  max-width: 200px;
-  align-items: center;
-  justify-content: space-around;
-}
-.operator{
-      display: flex;
-    margin: 32px 0 32px 32px;
-    width: 100px;
-}
-.delete__input{
-  opacity: 0.3;
-}
-.delete__input:hover{
-  opacity: 0.8;
-  cursor: pointer;
 }
